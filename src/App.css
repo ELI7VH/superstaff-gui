@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  transition: 1s;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.overview {
+  margin: 2em auto;
+  transition: all 1s;
+}
+
+.notice {
+  transition: all 1s;
+  color: red;
+}
+
+.App-header {
+  height: 60px;
+  padding: 20px;
+  color: white;
+
+  transition: 1s;
+}
+
+.event_host {
+  background-color: #c5523c;
+}
+.admin {
+  background-color: #4ba0c1;
+}
+.developer {
+  background-color: #2d2e26;
+}
+.temp {
+  background-color: #b3b3b2;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
